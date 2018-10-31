@@ -16,6 +16,6 @@ consumer_secret= 'SEU_CONSUMER_SECRET' #Consumer secret
 code = 'SEU_CODIGO_DE_APLICAÇÃO_ATORIZAÇÃO' #Codigo de aplicação
 
 
-api = Token(url, consumer_key, consumer_secret, code).get_token()
+my_token = Token(url, consumer_key, consumer_secret, code).get_token()
 
 print(api)
